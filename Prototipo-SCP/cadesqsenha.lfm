@@ -1,0 +1,76 @@
+object CadEsqSenhaF: TCadEsqSenhaF
+  Left = 402
+  Height = 588
+  Top = 129
+  Width = 497
+  BorderIcons = [biSystemMenu]
+  Caption = 'CadEsqSenhaF'
+  ClientHeight = 588
+  ClientWidth = 497
+  OnClose = FormClose
+  Position = poScreenCenter
+  LCLVersion = '3.8.0.0'
+  object edtEmail: TEdit
+    Left = 184
+    Height = 23
+    Top = 128
+    Width = 152
+    TabOrder = 0
+  end
+  object edtSenhaNova: TEdit
+    Left = 183
+    Height = 23
+    Top = 190
+    Width = 153
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 184
+    Height = 15
+    Top = 168
+    Width = 66
+    Caption = 'Senha Nova:'
+  end
+  object Label2: TLabel
+    Left = 184
+    Height = 15
+    Top = 96
+    Width = 32
+    Caption = 'Email:'
+  end
+  object edtConfSenha: TEdit
+    Left = 184
+    Height = 23
+    Top = 254
+    Width = 152
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Left = 185
+    Height = 15
+    Top = 232
+    Width = 123
+    Caption = 'Confirmar Senha Nova:'
+  end
+  object btnEntrar2: TButton
+    Left = 216
+    Height = 25
+    Top = 304
+    Width = 75
+    Caption = 'Entrar'
+    TabOrder = 3
+  end
+  object btnCancelar2: TButton
+    Left = 216
+    Height = 25
+    Top = 368
+    Width = 75
+    Caption = 'Cancelar'
+    TabOrder = 4
+    OnClick = btnCancelar2Click
+  end
+end

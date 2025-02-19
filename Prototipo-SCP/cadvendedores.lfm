@@ -1,0 +1,174 @@
+inherited cadVendedoresF: TcadVendedoresF
+  Caption = 'Cadastrar Vendedores'
+  inherited PageControl1: TPageControl
+    inherited tsPesquisar: TTabSheet
+      inherited Panel1: TPanel
+        ParentBackground = False
+      end
+      inherited Panel2: TPanel
+        ParentBackground = False
+      end
+    end
+    inherited tsCadastrar: TTabSheet
+      inherited Panel3: TPanel
+        ParentBackground = False
+        TabOrder = 10
+      end
+      object Label2: TLabel[1]
+        Left = 107
+        Height = 15
+        Top = 60
+        Width = 87
+        Caption = 'ID do Vendedor: '
+      end
+      object edtIdVend: TEdit[2]
+        Left = 200
+        Height = 23
+        Top = 56
+        Width = 152
+        TabOrder = 0
+      end
+      object label10: TLabel[3]
+        Left = 159
+        Height = 15
+        Top = 216
+        Width = 32
+        Caption = 'Email:'
+      end
+      object edtEmail: TEdit[4]
+        Left = 197
+        Height = 23
+        Top = 216
+        Width = 451
+        TabOrder = 7
+      end
+      object label7: TLabel[5]
+        Left = 141
+        Height = 15
+        Top = 260
+        Width = 50
+        Caption = 'Telefone: '
+      end
+      object edtTelefone: TEdit[6]
+        Left = 197
+        Height = 23
+        Top = 256
+        Width = 136
+        NumbersOnly = True
+        TabOrder = 8
+      end
+      object rbCPF: TRadioButton[7]
+        Left = 371
+        Height = 19
+        Top = 58
+        Width = 39
+        Caption = 'CPF'
+        TabOrder = 1
+      end
+      object rbCNPJ: TRadioButton[8]
+        Left = 429
+        Height = 19
+        Top = 58
+        Width = 46
+        Caption = 'CNPJ'
+        TabOrder = 2
+      end
+      object edtCPF: TEdit[9]
+        Left = 494
+        Height = 23
+        Top = 56
+        Width = 152
+        NumbersOnly = True
+        TabOrder = 3
+      end
+      object label5: TLabel[10]
+        Left = 126
+        Height = 15
+        Top = 100
+        Width = 68
+        Caption = 'Razão Social:'
+      end
+      object edtRazaoS: TEdit[11]
+        Left = 200
+        Height = 23
+        Top = 96
+        Width = 448
+        TabOrder = 4
+      end
+      object label4: TLabel[12]
+        Left = 112
+        Height = 15
+        Top = 140
+        Width = 82
+        Caption = 'Nome Fantasia:'
+      end
+      object edtNomeFant: TEdit[13]
+        Left = 200
+        Height = 23
+        Top = 136
+        Width = 448
+        TabOrder = 5
+      end
+      object label6: TLabel[14]
+        Left = 139
+        Height = 15
+        Top = 180
+        Width = 55
+        Caption = 'Endereço: '
+      end
+      object edtEndereco: TEdit[15]
+        Left = 200
+        Height = 23
+        Top = 176
+        Width = 448
+        TabOrder = 6
+      end
+      object label8: TLabel[16]
+        Left = 40
+        Height = 15
+        Top = 300
+        Width = 151
+        Caption = 'Percentual da Comissão (%):'
+      end
+      object edtPercentComissao: TEdit[17]
+        Left = 197
+        Height = 23
+        Top = 296
+        Width = 136
+        NumbersOnly = True
+        TabOrder = 9
+      end
+      object Label3: TLabel[18]
+        Left = 232
+        Height = 37
+        Top = 8
+        Width = 287
+        Caption = 'Cadastro do Vendedor'
+        Font.Height = -27
+        Font.Style = [fsBold]
+        ParentFont = False
+      end
+      object Label12: TLabel[19]
+        Left = 341
+        Height = 15
+        Top = 260
+        Width = 99
+        Caption = 'Somente Números'
+      end
+      object Label11: TLabel[20]
+        Left = 656
+        Height = 15
+        Top = 58
+        Width = 99
+        Caption = 'Somente Números'
+      end
+      object Label13: TLabel[21]
+        Left = 341
+        Height = 15
+        Top = 300
+        Width = 99
+        Caption = 'Somente Números'
+      end
+    end
+  end
+end
