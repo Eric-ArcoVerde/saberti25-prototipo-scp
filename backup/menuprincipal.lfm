@@ -1,0 +1,47 @@
+object MenuPrincipalF: TMenuPrincipalF
+  Left = 417
+  Height = 568
+  Top = 181
+  Width = 572
+  BorderIcons = [biSystemMenu]
+  Caption = 'MenuPrincipalF'
+  Menu = MainMenu1
+  OnClose = FormClose
+  LCLVersion = '3.8.0.0'
+  WindowState = wsMaximized
+  object MainMenu1: TMainMenu
+    Left = 224
+    Top = 96
+    object menuCadastro: TMenuItem
+      Caption = 'Cadastros'
+      object menuCadProd: TMenuItem
+        Caption = 'Produtos'
+        OnClick = menuCadProdClick
+      end
+      object menuCadUsuario: TMenuItem
+        Caption = 'Usuários'
+        OnClick = menuCadUsuarioClick
+      end
+      object menuClientes: TMenuItem
+        Caption = 'Clientes'
+        OnClick = menuClientesClick
+      end
+      object menuCadFornecedores: TMenuItem
+        Caption = 'Fornecedores'
+        OnClick = menuCadFornecedoresClick
+      end
+    end
+    object menuManutencao: TMenuItem
+      Caption = 'Manutenção'
+      OnClick = menuManutencaoClick
+    end
+    object menuSobre: TMenuItem
+      Caption = 'Sobre'
+      OnClick = menuSobreClick
+    end
+    object menuSair: TMenuItem
+      Caption = 'Sair'
+      OnClick = menuSairClick
+    end
+  end
+end

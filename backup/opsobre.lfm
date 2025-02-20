@@ -1,0 +1,50 @@
+object OpSobreF: TOpSobreF
+  Left = 586
+  Height = 638
+  Top = 161
+  Width = 574
+  Caption = 'OpSobreF'
+  ClientHeight = 638
+  ClientWidth = 574
+  OnClose = FormClose
+  LCLVersion = '3.8.0.0'
+  WindowState = wsMaximized
+  object Memo1: TMemo
+    Left = 0
+    Height = 638
+    Top = 0
+    Width = 574
+    Align = alClient
+    Font.Height = -16
+    Lines.Strings = (
+      'Informações do Sistema:'
+      'Sistema de Controle de Pordutos'
+      'Feito no Lazarus'
+      ''
+      'Linguagens:'
+      'Pascal'
+      ''
+      'Banco de Dados Utilizado:'
+      'Nenhum até o momento'
+      ''
+      'Ano do Desenvolvimento:'
+      '2025'
+      ''
+      'Empresa Desenvolvedora:'
+      'Eric e Iury SA'
+    )
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+  object btnVoltar: TBitBtn
+    Left = 464
+    Height = 30
+    Top = 572
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'Voltar'
+    OnClick = btnVoltarClick
+    TabOrder = 1
+  end
+end
